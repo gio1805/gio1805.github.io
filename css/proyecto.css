@@ -1,0 +1,83 @@
+body
+{
+	background-image: url(../Images/fondo.jpg);
+}
+#idimagenespresentacion
+{
+	float:right;
+	width:50%;
+	margin-right: 95px;
+	margin-top:45px;
+	border: 1px solid rgb(124, 226, 7);
+	padding-right: 25px;
+	overflow: hidden;
+}
+#imagenespresentacion
+{
+	width: 1000px;
+	height: 350px;
+	margin-right: 55px;
+	border: 1px solid rgb(124, 226, 7);
+}
+#idformulario
+{
+	float: left;
+	width: 30%;
+	height:800px;
+	background:white;
+	overflow-y:auto;
+	margin: 45px 45px 45px 25px;
+	border: 1px solid rgb(124, 226, 7);
+	border-top: 35px solid rgb(124, 226, 7);
+	padding-left: 35px;
+	padding-top: 20px;
+	z-index:6;
+}
+.botonesformulario
+{
+	border-top:0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid rgb(124, 226, 7);
+	margin-left: 40px;
+	padding: 15px 15px 15px 15px; 
+}
+.titulosformulario
+{
+	margin-left:40px;
+	padding: 3px 3px 3px 3px;
+}
+#idcursosizquierda
+{
+	float: left;
+	width: 50%;
+	height: 20px;
+	margin-right:1px;
+	
+}
+#idcursosderecha
+{
+	float: right;
+	width: 50%;
+	height: 20px;
+	margin-left:1px;
+	margin-right: 25px;
+	margin-bottom: 15px;
+		
+}
+.idlabel
+{
+	font-size:15px;
+}
+.idcheckbox
+{
+	
+	background-color:rgb(124, 226, 7);
+}
+.idtituloformulario
+{
+	
+	background-color:rgb(124, 226, 7);
+	width: 25%;
+	opacity: 0.2;
+}
