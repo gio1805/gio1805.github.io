@@ -1,5 +1,5 @@
 function iniciarpresentacion() {
-    setInterval(cambiarimagen, 6000);
+    setInterval(cambiarimagen, 12000);
 }
 var numero = 0;
 function cambiarimagen() {

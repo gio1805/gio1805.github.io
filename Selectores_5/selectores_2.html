@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/selectores_2.css">
+	<script src="JS/selectores_2.JS"></script>
+</head>
+<body>
+	<!--Insertamos el Nombre-->
+	<select onchange="selcnombre()" id="empleado">
+		<option value="elegir">Elegir</option>
+		<option class="e1" value="e1">Alex</option>
+		<option class="e2" value="e2">Diego</option>
+		<option class="e3" value="e3">Carlos</option>
+		<option class="e4" value="e4">Damaris</option>
+		<option class="e5" value="e5">Karolyn</option>
+		<option class="e6" value="e6">Lisardo</option>
+		<option class="e7" value="e7">Nazaret</option>
+		<option class="e8" value="e8">Karla</option>
+	</select>
+	
+	<!--Insertamos el Selector Cargo-->
+
+	<select onchange="buscar()" id="categoria">
+			<option value="elegir">Elegir</option>
+			<option value="director" class="director">Director</option>
+			<option value="senior" class="senior">Senior</option>
+			<option value="junior"class="junior">Junior</option>
+	</select>
+
+	<!--Insertamos la Tabla-->
+	<table border="1"> 
+		<tr>
+			<th>EMPLEADO</th>
+			<th>CATEGORIA</th>
+			<th>SALARIO</th>
+		</tr>
+		<tr class="e1 senior">
+			<td class="nombres">Alex</td>
+			<td >Senior</td>
+			<td>22000</td>
+		</tr>
+		<tr class="e2 director">
+			<td class="nombres">Diego</td>
+			<td >Director</td>
+			<td>60000</td>
+		</tr>
+		<tr class="e3 junior">
+			<td class="nombres">Carlos</td>
+			<td >Junior</td>
+			<td>18000</td>
+		</tr>
+		<tr class="e4 junior">
+			<td class="nombres">Damaris</td>
+			<td >Junior</td>
+			<td>20000</td>
+		</tr>
+		<tr class="e5 senior">
+			<td class="nombres">Karolyn</td>
+			<td >Senior</td>
+			<td>18000</td>
+		</tr>
+		<tr class="e6 junior">
+			<td class="nombres">Lisardo</td>
+			<td >Junior</td>
+			<td>18000</td>
+		</tr>
+		<tr class="e7 senior">
+			<td class="nombres">Maria</td>
+			<td >Senior</td>
+			<td>29000</td>
+		</tr>
+		<tr class="e8 director">
+			<td class="nombres">Nazaret</td>
+			<td >Directora</td>
+			<td>58000</td>
+		</tr>
+		<tr class="e9 director">
+			<td class="nombres">Karla</td>
+			<td >Directora</td>
+			<td>57500</td>
+		</tr>
+	</table>
+	<br><br>
+	>	
+</body>
+</html>

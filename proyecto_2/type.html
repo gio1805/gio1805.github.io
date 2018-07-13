@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="JS/type.JS"></script>
+	<link rel="stylesheet" type="text/css" href="css/type.css">
+</head>
+<body>
+	<div id="central">
+	<form >
+		<h1>Bienvenido</h1>
+
+		<h3>Datos personales</h3>
+		<input type="text"  id="nombre" placeholder="Ingrese su Nombre" ><br><br>
+		<input type="text"  id="apellido" placeholder="Apellidos"value="ortiz"><br><br>
+		<input type="date"  id="fechacumple" value="2018/05/18" ><br><br>
+		<input type="text"  id="telefono" placeholder="Ingrese su Número de contacto" value="666666"><br><br>
+		<h5>Selecciona su Nacionalidad</h5>
+		<select name="select" id="nacionalidad">
+				<option value=""></option>
+				<option value="España">España</option>
+				<option value="Colombia">Colombia</option>
+				<option value="Chile">Chile</option>
+				<option value="Venezuela">Venezuela</option>
+		</select><br><br>
+
+		<h3>Datos de Entrada</h3>
+		<input type="text"  id="email" placeholder="Ingrese su e-mail" value="gisal@dajfldksj.co"><br><br>
+		<input type="text"  id="usuario" placeholder="Ingrese su Usuario"value="uasda"><br><br>
+		<input type="password"  id="password" placeholder="Ingrese su contraseña" value="lfajdlkfa"><br><br>
+
+		<h3>Preferencias</h3>
+		<h5>Que te gusta mas!</h5>
+		<input type="checkbox" name="preferencia" id="series">Series
+		<input type="checkbox" name="preferencia" id="peliculas">Peliculas
+		<input type="checkbox" name="preferencia" id="documentales">Documentales
+		<br>
+		<h5>Forma de pago</h5>
+		<input type="radio" name="pago" id="anual">Anual
+		<input type="radio" name="pago" id="mensual">Mensual
+		<h5>Numero de Usuarios</h5>
+		<select name="select" id="usuario">
+				<option value=""></option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+		</select><br>
+		<h5>Menores de Edad</h5>
+		<input type="radio" name="si" id="si">SI
+		<input type="radio" name="si" id="no">NO
+		<br><br>
+		<h5>Tema</h5>
+		<input type="color"  id="colortema" size="20">
+		<br>
+		<h5>Comentario</h5>
+		<textarea  id="comentario" cols="30" rows="10" ></textarea>
+		<br>
+		<input type="button" value="Contrata" onclick="contratar()">
+	</form>	
+</div>	
+
+</body>
+</html>

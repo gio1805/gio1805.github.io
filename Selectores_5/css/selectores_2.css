@@ -1,0 +1,16 @@
+img{
+	width: 100px;
+}
+
+#divI
+{
+	float: left;
+	width: 48%;
+	height: 500px;
+}
+#divD
+{
+	float: left;
+	width: 48%;
+	height: 500px;
+}
